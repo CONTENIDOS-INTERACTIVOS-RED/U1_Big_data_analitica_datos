@@ -22,9 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4 #[i Big Data] se caracteriza por las #[b 5V: volumen], la cantidad masiva de datos generados; #[b velocidad], rapidez en la recopilación y análisis; #[b variedad], tipos de datos estructurados y no estructurados; #[b veracidad], calidad y confiabilidad de los datos; y #[b valor], información útil para decisiones estratégicas. Herramientas como Hadoop y Spark permiten procesar y analizar grandes volúmenes de datos, diferenciándose por su enfoque: Hadoop es ideal para procesamiento por lotes, mientras que Spark destaca en análisis en tiempo real. Bases de datos NoSQL, como MongoDB y Cassandra, facilitan la escalabilidad y flexibilidad en entornos dinámicos.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Dominar #[i Big Data] impulsa la innovación y abre caminos hacia un futuro transformador.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -102,10 +101,10 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: $color-sistema-d
+        background-color: #3C97DA !important
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff
+        color: #fff !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px
@@ -145,13 +144,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    transition: all 0.4s ease-in-out
+    background-color: $color-btn-fondo !important
+    color: $color-btn-texto !important
   .icon
-    transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    transition: all 0.4s ease-in-out
+    background-color: darken($color-btn-fondo, 20%) !important
   &:hover
     .icon
-      transform: scale(1.06)
+      transform: scale(1.05)
+      cursor: pointer
 </style>
