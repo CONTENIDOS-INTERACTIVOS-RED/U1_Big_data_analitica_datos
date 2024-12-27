@@ -49,7 +49,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '',
+        titulo: 'Desafíos en el manejo de grandes volúmenes de datos  ',
         desarrolloContenidos: true,
       },
       {
