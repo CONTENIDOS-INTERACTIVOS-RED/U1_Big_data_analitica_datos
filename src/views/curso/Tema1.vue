@@ -117,7 +117,35 @@
                 h4.mb-2.text-center Enfoque estratégico
                 p.mb-0.text-center Las herramientas de análisis avanzado, como Tableau o Power Bi, Son esenciales para transformar los datos, en acciones de alto impacto. 
     p.mb-5(data-aos="fade-up") El éxito de una estrategia de #[i Big Data] depende del equilibrio entre estas cinco características. Ignorar cualquiera de ellas puede comprometer la utilidad y confiabilidad de los datos. Por ejemplo, un sistema que maneja datos a alta velocidad, pero con baja veracidad, puede generar conclusiones inexactas. Del mismo modo, sin una clara orientación hacia el valor, los esfuerzos en #[i Big Data] pierden relevancia estratégica.
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/tecnologicadeloriente/titulos/122682' target='_blank' rel='noopener noreferrer') Holmes, D. E. (2018). Big Data: una breve introducción. Antoni Bosch Editor.
+          
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://blog.hubspot.es/website/que-es-big-data' target='_blank' rel='noopener noreferrer') HubSpot. (2024). ¿Qué es Big Data? HubSpot.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.tableau.com/es-es/products/trial' target='_blank' rel='noopener noreferrer') Tableau. (2024). Comience su prueba gratuita de Tableau.
+ 
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=T31CpSQD-hc' target='_blank' rel='noopener noreferrer') LT DATA CHANNEL. (2024). ¿QUÉ ES EL BIG DATA Y PARA QUÉ SIRVE?
 
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

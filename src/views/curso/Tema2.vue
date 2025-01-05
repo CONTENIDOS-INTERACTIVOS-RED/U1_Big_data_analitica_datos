@@ -374,27 +374,36 @@
         .col-lg
           p.mb-0 La elección entre ambas tecnologías, depende del contexto y las necesidades especificas, demostrando que no son soluciones excluyentes, sino complementarias en un ecosistema cada vez más diversificado y orientado a la innovación tecnológica. 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/tecnologicadeloriente/titulos/59093' target='_blank' rel='noopener noreferrer') López Murphy, J. J. & Zarza, G. (2017). La ingeniería del Big Data: cómo trabajar con datos. Editorial UOC.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.aicad.es/big-data' target='_blank' rel='noopener noreferrer') AICAD Business School. (s.f.). Big Data: Qué es, para qué sirve y cómo se utiliza.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.microsoft.com/es-es/power-platform/products/power-bi/downloads' target='_blank' rel='noopener noreferrer') Microsoft. (2024). Obtener las herramientas y aplicaciones Power BI.
+ 
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=Rz_7C-mdk8c' target='_blank' rel='noopener noreferrer') UdeCataluña. (2020). El valor del Big Data y la analítica avanzada en la era digital
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 

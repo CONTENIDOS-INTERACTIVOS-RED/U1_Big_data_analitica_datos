@@ -192,7 +192,33 @@
           .col-lg-5.d-none.d-lg-block
              img(src='@/assets/curso/t3/14.png', alt='')
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/tecnologicadeloriente/titulos/119511' target='_blank' rel='noopener noreferrer') Williamson, B. (2018). Big Data en educación. Ediciones Morata, S.L.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://inteleguia.com/es/blog/post/big-data-el-motor-de-la-transformaci%C3%B3n-empresarial-en-la-era-digital' target='_blank' rel='noopener noreferrer') Inteleguia. (s.f.). Big Data: el motor de la transformación empresarial en la era digital. 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://hadoop.apache.org/' target='_blank' rel='noopener noreferrer') Apache Hadoop. (2024). Software de código abierto para almacenamiento y procesamiento de datos.
+
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/live/1qP5jQyUdIw?si=ni7eEEwdVWzwXZLS' target='_blank' rel='noopener noreferrer') UNRN. (2023). El desafío del Gobierno de Datos en las Grandes Empresas
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
