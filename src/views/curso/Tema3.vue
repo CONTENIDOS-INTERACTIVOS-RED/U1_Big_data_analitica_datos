@@ -184,7 +184,7 @@
           .col-lg-7
              h2.mb-4 Ejemplos de soluciones aplicadas en #[i Big Data]
              p.mb-4 Se invita a conocer #[b ejemplos de soluciones aplicadas] en #[i Big Data], donde herramientas como Hadoop y Spark han optimizado procesos y mejorado los servicios en sectores como #[b retail, banca, telecomunicaciones, salud y educación]. Los casos destacan logros como detección de fraudes en tiempo real, diagnósticos médicos más rápidos y estrategias educativas personalizadas, demostrando el impacto transformador del análisis de datos masivos.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejemplo_soluciones_aplicadas_big_data.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto 

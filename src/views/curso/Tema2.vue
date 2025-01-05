@@ -84,10 +84,10 @@
               ul.lista-ul--color.mb-0
                 li.d-flex
                   i.fas.fa-circle.icon-list
-                  span #[b HDFS] Almacena datos distribuidos entre nodos, con tolerancia a fallos.
+                  span #[b HDFS.] Almacena datos distribuidos entre nodos, con tolerancia a fallos.
                 li.d-flex
                   i.fas.fa-circle.icon-list
-                  span.mb-0 #[b MapReduce] Procesa datos en paralelo, dividiendo tareas en las fases Map y Reduce.
+                  span.mb-0 #[b MapReduce.] Procesa datos en paralelo, dividiendo tareas en las fases Map y Reduce.
         .col-lg-auto.d-none.d-lg-block
           img(src='@/assets/curso/t2/9.png', alt='')
 

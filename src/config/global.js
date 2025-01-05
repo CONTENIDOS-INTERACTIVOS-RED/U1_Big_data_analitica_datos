@@ -113,12 +113,12 @@ export default {
     {
       termino: 'Analítica prescriptiva',
       significado:
-        'Proceso que genera acciones específicas basadas en los análisis predictivos y descriptivos.',
+        'Proceso que sugiere acciones específicas basadas en los análisis predictivos y descriptivos.',
     },
     {
       termino: 'Analítica descriptiva',
       significado:
-        'Proceso que analiza datos históricos y comprende múltiples patrones.',
+        'Método que analiza datos históricos para comprender tendencias y patrones.',
     },
     {
       termino: '<i>Big Data</i>',
@@ -148,7 +148,7 @@ export default {
     {
       termino: 'NoSQL',
       significado:
-        'Tipo de base de datos diseñada para manejar grandes volúmenes de datos no estructurados o semiestructurados.',
+        'Tipo de base de datos diseñada para manejar grandes volúmenes de datos no estructurados y semiestructurados.',
     },
     {
       termino: 'Power BI',
@@ -158,7 +158,7 @@ export default {
     {
       termino: '<i>Spark</i>',
       significado:
-        'Plataforma de procesamiento de datos, en tiempo real, que opera sobre datos para acelerar el análisis.',
+        'Plataforma de procesamiento de datos, en tiempo real, que opera en memoria para acelerar el análisis.',
     },
     {
       termino: 'SQL (<i>Structured Query Language</i>)',
@@ -173,7 +173,7 @@ export default {
     {
       termino: 'Variedad',
       significado:
-        'Característica de <i>Big Data</i> que se refiere a los diferentes formatos de datos, incluyendo estructurados y no estructurados.',
+        'Característica de <i>Big Data</i> que se refiere a la diversidad de formatos de datos, incluyendo estructurados y no estructurados.',
     },
     {
       termino: 'Velocidad',
@@ -203,7 +203,7 @@ export default {
     {
       termino: 'Qlik',
       significado:
-        'Plataforma de visualización y análisis de datos utilizada para crear sistemas interactivos.',
+        'Plataforma de visualización y análisis de datos utilizada para crear informes interactivos.',
     },
   ],
   complementario: [],

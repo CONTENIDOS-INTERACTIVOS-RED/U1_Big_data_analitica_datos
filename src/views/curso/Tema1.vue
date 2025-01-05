@@ -106,7 +106,7 @@
                   .col-lg-auto.d-none.d-lg-block
                     img(src='@/assets/curso/t1/11.svg', style='max-width: 90px').mx-auto
                 h4.mb-2.text-center Ejemplo aplicado
-                p.mb-0.text-center En marketing, el análisis de patrones de comportamiento, permite crear campañas personalizadas que incrementan la retención.
+                p.mb-0.text-center En marketing, el análisis de patrones de comportamiento, permite crear campañas personalizadas que incrementan la retención del cliente.
 
           .col-sm-12.col-lg-6.mb-lg-0.mb-3
             .custom-image-card.h-100.br-15
