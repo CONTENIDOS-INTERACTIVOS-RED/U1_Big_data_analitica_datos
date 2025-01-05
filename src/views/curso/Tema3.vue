@@ -194,13 +194,188 @@
 
 
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  data: () => ({
+    cuestionario: {
+      tema: 'Herramientas y tecnologías para Big Data',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál de las siguientes es una de las características principales de las bases de datos NoSQL?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Esquema rígido',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Escalabilidad horizontal',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Uso exclusivo de SQL',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No admite datos estructurados',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La escalabilidad horizontal es una característica clave de las bases de datos NoSQL.',
+          mensaje_incorrecto:
+            'No es correcto. Las bases de datos NoSQL se caracterizan por su escalabilidad horizontal.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué herramienta de Big Data es conocida por su procesamiento en memoria?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Hadoop',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Spark',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cassandra',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Neo4j',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Spark es conocido por su procesamiento en memoria, lo que lo hace más rápido.',
+          mensaje_incorrecto:
+            'No es correcto. Spark es la herramienta conocida por su procesamiento en memoria.',
+        },
+        {
+          id: 3,
+          texto: 'En el contexto de Big Data, ¿qué significa "variedad"?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diferentes velocidades de generación de datos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Diversos formatos y fuentes de datos',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La capacidad de integrar datos erróneos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Calidad y precisión de los datos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La variedad en Big Data se refiere a los diversos formatos y fuentes de datos.',
+          mensaje_incorrecto:
+            'No es correcto. La variedad se refiere a los diversos formatos y fuentes de datos.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuál de las siguientes herramientas se utiliza para la visualización de datos?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Spark',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Hadoop',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tableau',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cassandra',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Tableau es una herramienta especializada en visualización de datos.',
+          mensaje_incorrecto:
+            'No es correcto. Tableau es la herramienta utilizada para visualización de datos.',
+        },
+        {
+          id: 5,
+          texto: '¿Qué sistema de almacenamiento distribuido utiliza Hadoop?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'MapReduce',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'HDFS',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Spark Streaming',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Redis',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! HDFS (Hadoop Distributed File System) es el sistema de almacenamiento distribuido de Hadoop.',
+          mensaje_incorrecto:
+            'No es correcto. HDFS es el sistema de almacenamiento distribuido que utiliza Hadoop.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

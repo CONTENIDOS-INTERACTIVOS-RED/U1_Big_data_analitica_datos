@@ -22,7 +22,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Herramientas y tecnologías para Big Data',
+        titulo: 'Herramientas y tecnologías para <i>Big Data</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
